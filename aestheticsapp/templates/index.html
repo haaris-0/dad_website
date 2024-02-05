@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imran Tai Aesthetics</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <!-- Logo added to the top-left corner -->
+        <img id="logo" src="{{ url_for('static', filename='logo.png') }}" alt="Aesthetics Services Logo">
+        <a href="https://www.instagram.com/imran_tai_aesthetics/" target="_blank">
+            <img id="instagram-icon" src="{{ url_for('static', filename='instagram-icon.png') }}" alt="Instagram Icon">
+        </a>
+        <h1></h1>
+    </header>
+    
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul id="services-list">
+            <!-- Services will be dynamically added here -->
+        </ul>
+    </section>
+
+    <section id="external-booking">
+        <h2>Book an Appointment</h2>
+        <p>You can book an appointment through our external booking service:</p>
+        <button onclick="window.open('https://www.fresha.com/a/tanning-studios-batley-14-commercial-street-rh87fk1n', '_blank')">Book Now</button>
+    </section>
+    
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

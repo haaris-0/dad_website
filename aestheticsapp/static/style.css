@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; /* Add space between logo and Instagram button */
+}
+
+#logo {
+    max-height: 200px;
+}
+
+#instagram-icon {
+    max-height: 30px;
+    margin-left: -900px; /* Adjust the margin to move it more to the left */
+    margin-top: 175px; /* Adjust the margin to move it down a bit */
+}
+
+
+h1 {
+    margin-top: 80px;
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: #1a1a1a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+#services-list {
+    list-style: none;
+    padding: 0;
+}
+
+#services-list li {
+    margin-bottom: 20px;
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#services-list img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#services-list h3,
+#services-list p {
+    flex: 1;
+    padding: 10px;
+}
+
+#services-list h3 {
+    text-align: center;
+}
+
+#services-list p {
+    text-align: left;
+}
